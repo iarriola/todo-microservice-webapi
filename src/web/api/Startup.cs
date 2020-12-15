@@ -11,7 +11,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace microserivce_webapi
+namespace microservice_webapi
 {
     public class Startup
     {
