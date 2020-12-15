@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceWebapi.Reposito
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceWebapi.Api", "MicroserviceWebapi.Api\MicroserviceWebapi.Api.csproj", "{A494E73F-261F-45A0-9AD3-D1600954C590}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceWebapi.Model", "MicroserviceWebapi.Model\MicroserviceWebapi.Model.csproj", "{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{A494E73F-261F-45A0-9AD3-D1600954C590}.Release|x64.Build.0 = Release|Any CPU
 		{A494E73F-261F-45A0-9AD3-D1600954C590}.Release|x86.ActiveCfg = Release|Any CPU
 		{A494E73F-261F-45A0-9AD3-D1600954C590}.Release|x86.Build.0 = Release|Any CPU
+		{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}.Debug|x64.Build.0 = Debug|Any CPU
+		{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}.Debug|x86.Build.0 = Debug|Any CPU
+		{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}.Release|x64.ActiveCfg = Release|Any CPU
+		{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}.Release|x64.Build.0 = Release|Any CPU
+		{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}.Release|x86.ActiveCfg = Release|Any CPU
+		{44D5FB84-591F-4F65-805F-4F10A1FFC2E0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

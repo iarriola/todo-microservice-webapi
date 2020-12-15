@@ -2,7 +2,7 @@
 
 namespace MicroserviceWebapi.Repository
 {
-    public class Class1
+    public interface IRepository
     {
     }
 }
