@@ -6,9 +6,9 @@ Simple microservice based on dotnet and Web API
 .
 ├── README.md
 └── src
-    ├── MicroserviceWebapi.Api
-    ├── MicroserviceWebapi.Data
-    ├── MicroserviceWebapi.Repository
+    ├── MicroserviceWebapi.Api (webapi)
+    ├── MicroserviceWebapi.Data (migration)
+    ├── MicroserviceWebapi.Repository (classlib)
     └── microservice-webapi.sln
 ```
 
