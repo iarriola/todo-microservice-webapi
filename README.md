@@ -13,3 +13,4 @@ Simple microservice based on dotnet and Web API
 
 ## How to run
 - Execute `dotnet run --project src/MicroserviceWebapi.Api`
+- Open a web browser at `http://localhost:5000/WeatherForecast` to see sample `WeatherForecast` controller
