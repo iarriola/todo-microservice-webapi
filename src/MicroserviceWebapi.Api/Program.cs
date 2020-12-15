@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace microservice_webapi
+namespace MicroserviceWebapi.Api
 {
     public class Program
     {

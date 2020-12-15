@@ -11,7 +11,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace microservice_webapi
+namespace MicroserviceWebapi.Api
 {
     public class Startup
     {
@@ -29,7 +29,7 @@ namespace microservice_webapi
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "microserivce_webapi", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MicroserviceWebapi.Api", Version = "v1" });
             });
         }
 
@@ -40,7 +40,7 @@ namespace microservice_webapi
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "microserivce_webapi v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MicroserviceWebapi.Api v1"));
             }
 
             app.UseRouting();
