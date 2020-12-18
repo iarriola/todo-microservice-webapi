@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MicroserviceWebapi.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -10,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace MicroserviceWebapi.Api
 {
@@ -31,6 +33,14 @@ namespace MicroserviceWebapi.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MicroserviceWebapi.Api", Version = "v1" });
             });
+
+            Console.Write(Configuration.GetConnectionString("DefaultConnection"));
+
+            services.AddDbContext<TaskRepository>(options =>
+                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"))
+            );
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
