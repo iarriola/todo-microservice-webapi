@@ -34,10 +34,10 @@ namespace MicroserviceWebapi.Api
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MicroserviceWebapi.Api", Version = "v1" });
             });
 
-            Console.Write(Configuration.GetConnectionString("DefaultConnection"));
-
             services.AddDbContext<TaskRepository>(options =>
-                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"))
+                options.UseNpgsql(
+                    Configuration.GetConnectionString("DefaultConnection"),
+                    assembly => assembly.MigrationsAssembly("MicroserviceWebapi.Api"))
             );
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
