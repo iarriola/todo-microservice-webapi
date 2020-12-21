@@ -9,7 +9,7 @@ namespace MicroserviceWebapi.Model
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id {get; set;}
         [Key]
-        public  Guid Uuid {get; set;}
+        public Guid Uuid {get; set;}
         public string Title {get; set;}
         public string Description {get; set;}
         public string CreatedAt {get; set;}
