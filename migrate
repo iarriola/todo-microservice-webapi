@@ -1,0 +1,3 @@
+dotnet ef --project src/MicroserviceWebapi.Api/MicroserviceWebapi.Api.csproj migrations add initial
+
+dotnet ef --project src/MicroserviceWebapi.Api/MicroserviceWebapi.Api.csproj database update

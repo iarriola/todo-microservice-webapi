@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using MicroserviceWebapi.Model;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,7 @@ namespace MicroserviceWebapi.Repository
 
         }
 
-        public DbSet<Task> TodoItems { get; set; }
+        public DbSet<Task> Tasks { get; set; }
+
     }
 }
