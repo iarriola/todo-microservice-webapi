@@ -22,4 +22,5 @@ Simple microservice based on dotnet and Web API
 2. [Dependency injection in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
 3. [.NET Core CLI - Create Multi-Project Solution](https://www.skylinetechnologies.com/Blog/Skyline-Blog/February_2018/how-to-use-dot-net-core-cli-create-multi-project)
 4. [WebAPI with .NET Core and PostgreSQL](https://medium.com/@agavatar/webapi-with-net-core-and-postgres-in-visual-studio-code-8b3587d12823)
-5. [Organizing .NET Core Projects](https://medium.com/@fredrik_erasmus/organizing-net-core-projects-7ee335ea6af)6. [Organize your project to support both .NET Framework and .NET Core](https://docs.microsoft.com/en-us/dotnet/core/porting/project-structure)
+5. [Organizing .NET Core Projects](https://medium.com/@fredrik_erasmus/organizing-net-core-projects-7ee335ea6af)
+6. [Organize your project to support both .NET Framework and .NET Core](https://docs.microsoft.com/en-us/dotnet/core/porting/project-structure)
