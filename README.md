@@ -4,12 +4,16 @@ Simple microservice based on dotnet and Web API
 ## Project structure
 ```
 .
+├── Dockerfile
+├── MicroserviceWebapi.sln
 ├── README.md
-├── src
-|   ├── MicroserviceWebapi.Api (webapi)
-|   ├── MicroserviceWebapi.Model (classlib)
-|   ├── MicroserviceWebapi.Repository (classlib)
-└── MicroserviceWebapi.sln
+├── clean
+├── migrate
+├── run
+└── src
+    ├── MicroserviceWebapi.Api (webapi)
+    ├── MicroserviceWebapi.Model (classlib)
+    └── MicroserviceWebapi.Repository (classlib)
 ```
 
 ## How to run
